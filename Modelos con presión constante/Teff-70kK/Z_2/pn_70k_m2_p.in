@@ -1,0 +1,180 @@
+#####################################
+title pn_70k_m2_p
+#####################################
+set punch prefix "pn_70k_m2_p"
+table star "rauch_h-ni_solar.ascii" Teff=70000 log(g)=5
+luminosity total 37.3
+CMB
+radius 17.006
+hden 4.007
+constant pressure
+sphere expanding
+aperture beam
+abundances planetary nebula no grains
+grains ISM
+species "C+" levels=all
+species "N+" levels=all
+species "O+" levels=all
+fluctuations abundance 17.031 0.3 0.0
+cosmic rays background
+stop pfrac=0.01
+stop temperature 100 K
+iterate 4
+print line pump
+print line faint -5
+set save prefix "pn_70k_m2_p"
+save lines labels long ".line_labels"
+save last overview ".ovr"
+save lines emissivity last ".emis"
+Ar 3  5191.82A
+Ar 3  7135.79A
+Ar 3  7751.11A
+Ar 5  4625.39A
+Ar 5  6435.12A
+Ar 5  7005.83A
+Blnd 3727.00A
+Blnd 5199.00A
+Blnd 5875.66A
+Blnd 6300.00A
+Blnd 6580.00A
+Blnd C 9850.00A
+C  1  1656.27A
+C  1  8727.13A
+C  1  9824.13A
+C  1  9850.26A
+C  2  4267.00A
+C  2  4267.10A
+C  2  4267.26A
+C  2  6578.05A
+C  2  6580.00A
+C  2  6582.88A
+C  2  7231.33A
+C  2  7236.42A
+C  3  1908.73A
+C 4R 1549.00A
+C  5  2952.05A
+C 1R 9850.00A
+C 2P  6580.00A
+C 2R  6580.00A
+Coll  4649.13A
+Coll 4267.00A
+Coll 6300.30A
+Coll 9850.26A
+Heat  6578.05A
+H  1  4861.32A
+H  1  6562.80A
+H  1  911.753A
+He 1  5875.98A
+He 1  5875.64A
+He 1  5875.61A
+He 2  4685.68A
+Inwd  6578.05A
+N 1R 5199.00A
+N  2  4041.00A
+N  2  5666.63A
+N  2  5676.02A
+N  2  5679.00A
+N  2  5679.56A
+N  2  5686.21A
+N  2  5710.77A
+N  2  5730.66A
+N  2  5754.59A
+N  2  6583.45A
+N  3  4379.00A
+N  4  4073.50A
+N  5  1242.80A
+N 2R  5755.00A
+N 2R  6584.00A
+N 2T 5755.00A
+Ne 1  6717.04A
+Ne 1 6717.04A
+Ne 2 461.050A
+Ne 3  3342.18A
+Ne 3  3868.76A
+Ne 3  3967.47A
+Ne 4  1601.61A
+Ne 5  2973.13A
+Ne 5  3345.82A
+Ne 5  3425.88A
+O  1  5577.34A
+O  1  6300.30A
+O  1  6363.78A
+O  1  7771.94A
+O  1  7774.17A
+O  1  7775.39A
+O  1  7773.00A
+O  1  8446.25A
+O  1  8446.36A
+O  1  8446.76A
+O  1  8447.00A
+O  1  9264.00A
+O  1  9260.81A
+O  1  9260.85A
+O  1  9260.94A
+O  1  9262.58A
+O  1  9262.67A
+O  1  9262.78A
+O  1  9265.83A
+O  1  9265.93A
+O  1  9266.01A
+O  2  4094.00A
+O  2  4638.86A
+O  2  4641.81A
+O  2  4649.13A
+O  2  4650.84A
+O  2  4661.63A
+O  2  4673.73A
+O  2  4676.23A
+O  2  4696.35A
+O  2  3728.81A
+O  2  3726.03A
+O  3  3265.00A
+O  3  4363.21A
+O  3  5006.84A
+O  3  5592.00A
+O 4H 1401.00A
+O  5  1303.46A
+O 2H  3727.00A
+O 2P  4651.00A
+O 2R  3726.00A
+O 2R  3729.00A
+O 2R 4651.00A
+O 3C  4363.00A
+O 3C 5592.00A
+O 3R  4363.00A
+S  3  6312.06A
+S  3  9068.62A
+S  3  9530.62A
+S  2  6716.44A
+S  2  6730.82A
+Cl 3  5517.71A
+Cl 3  5537.87A
+Ar 4  4711.26A
+Ar 4  4740.12A
+Pump  4267.00A
+Pump  4649.13A
+Pump  5679.56A
+Pump  6578.05A
+Pump  7231.33A
+Pump 9850.26A
+end of lines
+save last pressure ".press"
+save last abundances ".abun"
+save last radius ".rad"
+save last continuum ".cont"
+save last physical conditions ".phy"
+save last overview ".ovr"
+save last heating ".heat"
+save last cooling ".cool"
+save last optical depth ".opd"
+save last element hydrogen ".ele_H"
+save last element helium ".ele_He"
+save last element carbon ".ele_C"
+save last element nitrogen ".ele_N"
+save last element oxygen ".ele_O"
+save last element argon ".ele_Ar"
+save last element neon ".ele_Ne"
+save last element sulphur ".ele_S"
+save last element chlorin ".ele_Cl"
+save last element iron ".ele_Fe"
+save last element silicon ".ele_Si"
