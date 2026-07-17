@@ -50,42 +50,55 @@ Esta carpeta contiene los perfiles obtenidos para las diferentes propiedades fí
 En esta carpeta se encuentran las tablas de los cálculos de abundancias químicas, así como las gráficas de comparación del ADF.
 
 ## Organización general
-
-## Organización general
-
 ```text
 Modelos-fotoionizados/
-│
-├── densidad_constante/
-├── presion_constante/
-├── opticamente_delgados/
-├── polvo_proporcional/
-│
-├── graficas/
-│   ├── densidad_constante/
-│   ├── presion_constante/
-│   ├── opticamente_delgados/
-│   └── polvo_proporcional/
-│
-├── perfiles/
-│   ├── densidad/
-│   │   ├── densidad_constante/
-│   │   ├── presion_constante/
-│   │   ├── opticamente_delgados/
-│   │   └── polvo_proporcional/
-│   │
-│   └── temperatura/
-│       ├── densidad_constante/
-│       ├── presion_constante/
-│       ├── opticamente_delgados/
-│       └── polvo_proporcional/
-│
-├── mapas_de_lineas/
-│   ├── densidad_constante/
-│   ├── presion_constante/
-│   ├── opticamente_delgados/
-│   └── polvo_proporcional/
-│
-├── adf/
-└── abundancias/
+|
+|-- densidad_constante/
+|-- presion_constante/
+|-- opticamente_delgados/
+|-- polvo_proporcional/
+|
+|-- graficas/
+|   |-- densidad_constante/
+|   |-- presion_constante/
+|   |-- opticamente_delgados/
+|   `-- polvo_proporcional/
+|
+|-- perfiles/
+|   |-- densidad/
+|   |   |-- Ar/
+|   |   |   |-- radiales/
+|   |   |   `-- proyecciones/
+|   |   |
+|   |   `-- S/
+|   |       |-- radiales/
+|   |       `-- proyecciones/
+|   |
+|   `-- temperatura/
+|       |-- O/
+|       |   |-- radiales/
+|       |   `-- proyecciones/
+|       |
+|       |-- S/
+|       |   |-- radiales/
+|       |   `-- proyecciones/
+|       |
+|       |-- Ar/
+|       |   |-- radiales/
+|       |   `-- proyecciones/
+|       |
+|       `-- N/
+|           |-- radiales/
+|           `-- proyecciones/
+|
+|-- mapas_de_lineas/
+|   |-- densidad_constante/
+|   |-- presion_constante/
+|   |-- opticamente_delgados/
+|   `-- polvo_proporcional/
+|
+|-- intensidades_de_lineas/
+|-- abundancias_quimicas/
+|-- adf/
+`-- diagramas_tipo_wilson/
 ```
