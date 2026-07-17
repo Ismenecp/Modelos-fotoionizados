@@ -51,6 +51,9 @@ En esta carpeta se encuentran las tablas de los cálculos de abundancias químic
 
 ## Organización general
 
+## Organización general
+
+```text
 Modelos-fotoionizados/
 │
 ├── densidad_constante/
@@ -85,3 +88,4 @@ Modelos-fotoionizados/
 │
 ├── adf/
 └── abundancias/
+```
